@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+body{
+    background: #FFEB3B;
+}
+
+.new{
+    text-align: right;
+}
+.new input{
+    width: 35px;
+    height: 35px;
+    margin: 3px 3px 0 0;
+}
+.container{
+    width: 80%;
+    /* height: calc(100vh - 35px); */
+    height: auto;
+    min-height: calc(100vh - 35px);
+    background: #f7e653;
+    border-radius: 2em;
+    margin: auto;
+}
+.container h2{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+#list-notes{
+    border-collapse: collapse;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#list-notes tr{
+    border-bottom: 1px solid #000000;
+    cursor: context-menu;
+    color: #000000;
+    font-family: 'Questrial', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+}
+td.note{
+    width: 90%;
+}
+td img{
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+    cursor: pointer;
+}
+td:not(.note){
+    text-align: center;
+}
+td.write{
+    text-align: left;
+}
+td.write input{
+    height: 20px;
+    width: 100%;
+    font-size: 16px
+}
+.hide{
+    visibility: hidden;
+}
+/* #list-notes li div span{
+    max-width: 90%;
+    text-align: justify;
+} */
+/* #list-notes li div input[type=image], #list-notes li div span{
+    display: inline-block;
+} */
+
